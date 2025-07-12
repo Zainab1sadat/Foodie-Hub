@@ -1,0 +1,214 @@
+/* .luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+.navbar{
+      font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  h1{
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}  
+
+.links a{
+    background-color: #FF9B17;
+}
+p{
+    font-weight: 400;
+    font-style: normal;   
+}
+.card{
+    overflow: hidden;
+}
+.container .row .col-sm-3 .card{
+    border-radius: 20px;
+}
+.card-img-top{
+    transition:transform 0.4s ease;
+}
+.card:hover .card-img-top{
+    transform: scale(1.1);
+}
+.card-img-top{
+    height: 300px;
+}
+.card-title{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 200;
+    font-style: normal;
+    padding: 5px;
+}
+
+.container .row .col-sm-3 .card .card-body a{
+    width: 100%;
+    background-color: #FF8000;
+    scroll-behavior: smooth;
+}
+.container .row .col-sm-3 .card .card-body a:hover{
+    box-shadow: 2px 2px 20px 2px rgb(201, 200, 200);
+}
+
+
+
+/* menu-list page */
+.menu-page{
+    background-color: rgba(250, 235, 215, 0.89);
+}
+#top{
+    background-color: #FF9B17;
+    height: 200px;
+}
+.menu-list .row .col-md-4 .card{
+   border: none;
+   border-radius: 40px;
+   background: rgba(255, 255, 255, 0.527);
+   backdrop-filter: blur(45px);
+} 
+.menu-list .row .col-md-4 .card:hover{
+    background-color: #FF9B17;
+    color: white;
+    transition: 0.4s;
+}
+.menu-list .row .col-md-4 .card .card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.menu-list .row .col-md-4 .card .card-body a{
+    border: 1px black solid;
+    border-radius: 20px;
+    font-weight: bolder;
+    float: right;
+}
+.menu-list .row .col-md-4 .card .card-body .bi-star-fill{
+    color: rgb(248, 248, 44);
+    margin-top: 10px;
+
+}
+.menu-list .row .col-md-4 .card .card-body .card-title{
+    line-height: 1px;
+}
+.menu-list .row .col-md-4 .card .card-body .card-text{
+    color: crimson;
+    font-weight: bold;
+    
+}
+
+.menu-list .row .col-md-4 .card i{
+    text-align: left;
+    margin: 6px 20px;
+
+}
+.menu-list .row .col-md-4 .card .cross{
+    color: red;
+}
+.menu-list .row .col-md-4 .card .check{
+    color: green;
+}
+.modal .modal-body .submit-btn{
+    background-color: #FF9B17;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* about page styles */
+#about img{
+    width: 400px;
+    height: 430px;
+
+}
+#about p, ul{
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* Contact page styles */
+#Contact input{
+    padding: 8px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+
+}
+#Contact textarea{
+    padding: 8px;
+    border-radius: 20px;
+    background-color: whitesmoke;   
+}
+#Contact .submit-btton{
+    background-color: #FF8000;
+}
+
+#Contact i{
+    float: left;
+    font-size: large;
+    color: white;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: #FF8000;
+}
+footer img{
+    width: 150px;
+
+}
+footer ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 768px)  {
+    #restaurantLists{
+        display: flex;
+
+    }
+    #about h1{
+        width: 250px;
+
+    }
+    #aboutText{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    #aboutText img{
+        width: 320px;
+    }
+    #aboutText p{
+        width: 250px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #aboutText ul{
+        padding: 0px;
+        margin: 0px;
+    }
+    .container .restaurant-section .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Contact .col-sm-6{
+        text-align: center;
+    }
+    #contact-info{
+        display: inline-block;
+        width: 300px;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer p{
+        text-align: center;
+        padding: 0px;
+    }
+
+}
